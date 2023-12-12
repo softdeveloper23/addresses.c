@@ -3,5 +3,6 @@
 int main(void)
 {
     int n = 50;
-    printf("%p\n", &n); // prints the address of n
+    int *p = &n;       // p is a pointer to an integer, and it points to n
+    printf("%p\n", p); // prints the address of n
 }
